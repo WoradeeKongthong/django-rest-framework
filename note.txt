@@ -22,3 +22,18 @@ soruce ~/env/bin/activate
 # install packages from requirements.txt
 
 # create Django project and app
+########################################
+
+----------------------------------------
+PROJECT : create User Management System
+
+project : profiles_project
+app : profiles_api
+----------------------------------------
+(1) create UserProfile and UserProfileManager models
+(2) makemigrations and migrate
+(3) python manage.py createsuperuser
+    email : admin@company.com
+    name : admin
+    password : 1234
+(4) register the model to admin.py
